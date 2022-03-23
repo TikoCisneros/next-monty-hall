@@ -1,0 +1,31 @@
+.gift {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift__cap {
+  width: 100px;
+  height: 10px;
+  background-color: #7aa944;
+}
+
+.gift__box {
+  width: 90px;
+  height: 60px;
+  background-color: #5c7e32;
+}
+
+.gift__rope {
+  background-color: rgba(255, 0, 0, 0.6);
+  position: absolute;
+  width: 15px;
+  height: 70px;
+}
+
+.gift__rope-horizontal {
+  width: 90px;
+  height: 15px;
+  top: 30px;
+}

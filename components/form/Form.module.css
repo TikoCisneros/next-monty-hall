@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form__title {
+  align-self: center;
+  font-size: 3rem;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.form__button {
+  margin-top: 30px;
+}

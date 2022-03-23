@@ -1,0 +1,64 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: var(--door-width);
+  height: var(--door-height);
+  margin: 5px;
+}
+
+.frame {
+  display: flex;
+  flex-grow: 1;
+  width: 95%;
+  border: 5px solid rgb(120 53 15);
+  border-bottom: 0px;
+}
+
+.frame--selected {
+  border: 5px solid #fed7aa;
+  border-bottom: 0px;
+}
+
+.frame--selected .door__number {
+  color: #fed7aa;
+}
+
+.frame--selected .door__look {
+  background-color: #fed7aa;
+}
+
+.door {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(180 83 9);
+}
+
+.door--open {
+  background-color: black;
+  justify-content: flex-end;
+}
+
+.door__number {
+  font-size: 3rem;
+  align-self: center;
+}
+
+.door__look {
+  position: absolute;
+  top: calc(0.45 * var(--door-height));
+  align-self: flex-start;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: rgb(120 53 15);
+}
+
+.floor {
+  height: 5px;
+  width: 100%;
+  background-color: #ddd;
+}

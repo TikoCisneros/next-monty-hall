@@ -1,0 +1,19 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game__doors-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.game__actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
